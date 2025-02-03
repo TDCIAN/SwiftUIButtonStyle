@@ -131,6 +131,16 @@ struct ContentView: View {
                 
             }
             .buttonStyle(.custom(rank: .tertiary))
+            
+            Button("Jared Style") {
+                
+            }
+            .buttonStyle(.custom(variant: .default))
+            
+            Button("Jared Style") {
+                
+            }
+            .buttonStyle(.custom(variant: .blank))
         }
         .padding()
     }
